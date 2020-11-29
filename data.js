@@ -1,3 +1,4 @@
+import daffodil from '../src/image/daffodil.png';
 var quizzes = [
     ['Quiz1',"daffodil.png","1"],
     ['Quiz2','cherryblossom.png',"2"],
