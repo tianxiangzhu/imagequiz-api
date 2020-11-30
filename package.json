@@ -11,7 +11,7 @@
       "type": "git",
       "url": "git+https://github.com/tianxiangzhu/imagequiz-api.git"
     },
-    "author": "Caleb Groff",
+    "author": "tianxiangzhu",
     "license": "ISC",
     "bugs": {
       "url": "https://github.com/tianxiangzhu/imagequiz-api/issues"
