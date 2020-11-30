@@ -3,7 +3,7 @@ const { response } = require("express")
 const cors = require("cors")
 const app = express()
 const port = process.env.PORT||3000
-const quizzesdata = require("./quizzesdata")
+const quizzesdata = require("./data")
 const scores = []
 console.log("quizzes:",quizzesdata.quizzes)
 console.log("questions:",quizzesdata.questions)
