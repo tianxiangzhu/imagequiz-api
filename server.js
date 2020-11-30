@@ -5,8 +5,6 @@ const app = express()
 const port = process.env.PORT||3000
 const quizzesdata = require("./data")
 const scores = []
-console.log("quizzes:",quizzesdata.quizzes)
-console.log("questions:",quizzesdata.questions)
 
 app.use(cors())
 app.use(express.json())
@@ -21,14 +19,12 @@ app.get('/quiz/:id',(request, response) => {
     response.json(found)
 })
 app.post('/score', (request, response) => {
-    console.log("score:", request.body)
     scores.push(request.body)
-    console.log("Update scores:", scores)
-    response.json({message: 'The score saved'})
+    response.json({message: 'Score has saved'})
 
 }
 )
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}!`)
+    console.log(`Port: ${port}`)
 })
