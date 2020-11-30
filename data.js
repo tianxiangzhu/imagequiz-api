@@ -2,8 +2,8 @@
 
 var quizzes = [
     ['Quiz1','daffodil',"1"],
-    ['Quiz2','cherryblossom',"2"],
-    ['Quiz3','daisy',"3"]
+    ['Quiz2','tulip',"2"],
+    ['Quiz3','elephant',"3"]
 ]   
 
 var questions = {
