@@ -20,7 +20,7 @@ app.get('/quiz/:id',(request, response) => {
 })
 app.post('/score', (request, response) => {
     scores.push(request.body)
-    response.json({message: 'Score has saved'})
+    response.json({message: 'The score saved'})
 
 }
 )
